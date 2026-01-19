@@ -72,9 +72,31 @@
 
 ---
 ### Задание 6
+Создайте UserParameter на bash и прикрепите его к созданному вами ранее шаблону. Он должен вызывать скрипт, который:
 
-![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
-![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+при получении 1 будет возвращать ваши ФИО,
+при получении 2 будет возвращать текущую дату.
+Требования к результату
+ Прикрепите в файл README.md код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2
+
+```
+#!/bin/bash
+
+if [ "$1" = "1" ]; then
+    # Возвращаем ФИО
+    echo "Пономарев ДД"
+elif [ "$1" = "2" ]; then
+    # Возвращаем текущую дату
+    date '+%Y-%m-%d %H:%M:%S'
+else
+    # Если параметр не 1 и не 2
+    echo "Invalid parameter"
+    exit 1
+fi
+
+exit 0
+```
+![Задание6](https://github.com/ddponomarev/zabbix_2/blob/main/img/zad6.png)
 
 
 ---
