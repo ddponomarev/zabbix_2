@@ -150,9 +150,8 @@ else:
 
 ---
 ### Задание 9
+Доработайте скрипты Vagrant для 2-х агентов, чтобы они были готовы к автообнаружению сервером, а также имели на борту разработанные вами ранее параметры пользователей.
 
-![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
-![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
-
+ Приложите в GitHub файлы Vagrantfile и zabbix-agent.sh.*
 
 ---
