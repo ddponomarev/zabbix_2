@@ -11,9 +11,7 @@
 Требования к результату
  Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
-![настройки jenkins](https://github.com/ddponomarev/dewops/blob/main/img/z1.png)
-![результат сборки jenkins](https://github.com/ddponomarev/dewops/blob/main/img/z1b.png)
-
+![Задание1](https://github.com/ddponomarev/zabbix_2/blob/main/img/zad1.png)
 
 ---
 
