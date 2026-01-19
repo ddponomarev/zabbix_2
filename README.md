@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Что такое DevOps. СI/СD`" - `Пономарев Денис`
+# Домашнее задание к занятию "`Система мониторинга Zabbix. Часть 2`" - `Пономарев Денис`
 
 ### Задание 1
 
@@ -26,6 +26,41 @@
 ---
 
 ### Задание 4
+
+![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
+![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+
+
+---
+### Задание 5
+
+![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
+![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+
+
+---
+### Задание 6
+
+![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
+![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+
+
+---
+### Задание 7
+
+![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
+![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+
+
+---
+### Задание 8
+
+![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
+![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+
+
+---
+### Задание 9
 
 ![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
 ![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
