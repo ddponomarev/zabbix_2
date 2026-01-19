@@ -101,9 +101,41 @@ exit 0
 
 ---
 ### Задание 7
+Доработайте Python-скрипт из лекции, создайте для него UserParameter и прикрепите его к созданному вами ранее шаблону. Скрипт должен:
 
-![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
-![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+при получении 1 возвращать ваши ФИО,
+
+при получении 2 возвращать текущую дату,
+
+делать всё, что делал скрипт из лекции.
+
+ Прикрепите в файл README.md код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*
+
+```
+#!/usr/bin/python3
+import sys
+import os
+import re
+from datetime import datetime
+
+if (sys.argv[1] == '1'):
+    print("Пономарев_ДД")
+
+elif (sys.argv[1] == '2'):
+    print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+elif (sys.argv[1] == '-ping'):
+    result = os.popen("ping -c 1 " + sys.argv[2]).read()
+    result = re.findall(r"time=(.*) ms", result)
+    print(result[0] if result else "0")
+
+elif (sys.argv[1] == '-simple_print'):
+    print(sys.argv[2])
+
+else:
+    print(f"unknown input: {sys.argv[1]}")
+```
+![Задание7](https://github.com/ddponomarev/zabbix_2/blob/main/img/zad7.png)
 
 
 ---
