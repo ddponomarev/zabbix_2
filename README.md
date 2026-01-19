@@ -140,9 +140,12 @@ else:
 
 ---
 ### Задание 8
+Настройте автообнаружение и прикрепление к хостам созданного вами ранее шаблона.
 
-![настройки ](https://github.com/ddponomarev/dewops/blob/main/img/z4.png)
-![результат сборки](https://github.com/ddponomarev/dewops/blob/main/img/z4b.png)
+Требования к результату
+ Прикрепите в файл README.md скриншот правила обнаружения, а также скриншот страницы Discover, где видны оба хоста.*
+![Задание8](https://github.com/ddponomarev/zabbix_2/blob/main/img/zad8a.png)
+![Задание8a](https://github.com/ddponomarev/zabbix_2/blob/main/img/zad8b.png)
 
 
 ---
